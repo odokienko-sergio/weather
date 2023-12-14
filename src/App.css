@@ -1,0 +1,87 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.base {
+  max-width: 600px;
+  margin: 2% auto;
+}
+
+.header {
+}
+
+.header-title {
+  text-align: center;
+  color: #ff5001;
+  margin: 15px 0;
+  font-size: 30px;
+}
+
+.header-title span {
+  color: #ffffff;
+  background-color: #ff5001;
+}
+
+.input-text {
+  border: 1px solid #cdcdcd;
+  border-radius: 10px;
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.header-text {
+  color: #cdcdcd;
+  margin: 10px;
+}
+
+.current {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ff5001;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.current-img {
+  margin: 10px 0 0 0;
+}
+
+.degrees {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.current-text {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.day-forecast {
+  display: flex;
+  border-top: 1px solid #ded9d99e;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.day-of-the-week {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.day-forecast-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.day-forecast-degrees {
+  font-size: 22px;
+  font-weight: 600;
+}
